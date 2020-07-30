@@ -1,0 +1,26 @@
+---
+title: "week_01"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{week_01}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+##### THINGS TO COVER
+
+Things to make sure you cover: 
+
+1) Introduce yourself
+2) Get everyone to introduce themselves, possibly with what they're hoping to learn from this book!
+3) How frequently do you want to meet? (Once a week is nice because it provides some consistency)
+5) Set some expectations
+
+##### Optional
