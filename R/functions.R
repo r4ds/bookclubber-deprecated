@@ -10,9 +10,8 @@
 
 
   # Usage and feel should be a lot like usethis::create_project
-  #
+
   # Actually, can just be a wrapper on usethis::create_project?
-  #
 
   # Stepping through usethis::create_project package below:
 
@@ -91,4 +90,6 @@ bc_presentation_submit <- function(){
 }
 
 ### INTERNAL ###
+
+# (For internal code not liberally taken from usethis)
 
