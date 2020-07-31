@@ -1,15 +1,19 @@
-### Function Skeletons
+#### Function Skeleton ####
 
-clone_bookclub <- function(repo = NULL, path = NULL){
+## Create a new book club repo
+# prefixing with dot to hide from average book club user
 
-  #
+.bc_create <- function(){}
 
-}
+# Download repository to a local folder
 
+bc_download <- function(){}
 
+# Ordinary weekly user functions
 
-claim_week <- function(repo = NULL, week = NULL){
-  # check that there is an Rproj loaded
+bc_claim_week <- function(){
+
+  # check that there is an Rproj loaded (fa)
   # check that there is a .bookclub.yml file and create an environment object to store bookclubber vars
   # (so we know it's a book club structured thing), and a .git folder/repo
   # git2r::pull for freshest version
@@ -17,20 +21,18 @@ claim_week <- function(repo = NULL, week = NULL){
   # find spot to add to README
   # git2r::push (to fork? automatically creating PR?)
   # message: waiting for approval!
-}
-
-.check_rproj_loaded <- function(){
 
 }
 
-.check_bookclub_yml <- function(){
+bc_new_presentation <- function(){}
+
+bc_submit_presentation <- function(){
+
+  # commits to user/repo@presentation_week_cohort branch (ie not user's main branch)
+  # pushes
+  # creates PR via github api?
 
 }
 
-.pull_latest <- function(){
+### INTERNAL ###
 
-}
-
-.create_pr <- function(){
-
-}
