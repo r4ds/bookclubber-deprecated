@@ -1,6 +1,6 @@
 # bookclubber
 
-STATUS: WAITING FOR USETHIS TO ADD FUNCTIONALITY FOR DEFAULT/MAIN BRANCHES RATHER THAN WRITING OUR OWN FROM SCRATCH
+STATUS: See issue https://github.com/r4ds/bookclubber/issues/1
 
 #### Functions
 
